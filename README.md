@@ -16,7 +16,7 @@ You can use the class by creating an instance of it and calling the `create` met
 from package_creator import PackageCreator
 
 creator = PackageCreator('mypackage')
-creator.create()```
+creator.create()'''
 
 ### PackagePreparer
 The PackagePreparer class can be used to prepare a Python package for distribution. It creates source and wheel distributions, creates the necessary files (README.md, LICENSE, CHANGELOG.md, .gitignore, requirements.txt) if they don't exist, and moves the distributions to the package root.
@@ -27,7 +27,7 @@ You can use the class by creating an instance of it and calling the prepare meth
 from package_preparer import PackagePreparer
 
 preparer = PackagePreparer()
-preparer.prepare('mypackage')```
+preparer.prepare('mypackage')'''
 
 
 ##Dependencies
