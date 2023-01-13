@@ -1,6 +1,6 @@
 # Package Creator and Preparer
 
-This repo contains a script that automates the process of creating and preparing a Python package for distribution.
+This repo contains a script that automates the process of creating and preparing a Python package for distribution. This script was created in 3 minutes with the help of ChatGPT.
 
 ## Usage
 
@@ -43,3 +43,7 @@ Contributions
 
 Feel free to contribute to this project by submitting pull requests or reporting issues.
 Please make sure that you have created an account on PyPI, and also that your package name is unique, and it's not already taken by someone else.
+
+## Release Notes: 
+
+202301 - First Release 
