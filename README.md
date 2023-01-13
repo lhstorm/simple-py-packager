@@ -13,7 +13,7 @@ The `PackageCreator` class can be used to create the basic structure of a Python
 You can use the class by creating an instance of it and calling the `create` method.
 
 ```python
-from package_creator import PackageCreator
+from simplepypackager import PackageCreator
 
 creator = PackageCreator('mypackage')
 creator.create()
@@ -25,7 +25,7 @@ The PackagePreparer class can be used to prepare a Python package for distributi
 You can use the class by creating an instance of it and calling the prepare method, passing in the package name as an argument.
 
 ```python
-from package_preparer import PackagePreparer
+from simplepypackager import PackagePreparer
 
 preparer = PackagePreparer()
 preparer.prepare('mypackage')
