@@ -41,7 +41,7 @@ class PackagePreparer:
 
         print(f'Successfully prepared {self.package_name} for distribution')
         
- class PackageCreator:
+class PackageCreator:
     def __init__(self, package_name):
         self.package_name = package_name
 
